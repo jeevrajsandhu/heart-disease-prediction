@@ -146,7 +146,7 @@ Heart-Disease-Prediction/
 ### 1. Clone Repository
 
 ```bash
-git clone <your-repository-link>
+git clone <>
 cd Heart-Disease-Prediction
 ```
 
