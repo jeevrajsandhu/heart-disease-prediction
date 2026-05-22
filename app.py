@@ -137,7 +137,11 @@ html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
 
 /* ── Streamlit overrides ── */
 div[data-testid="stSlider"] > div { padding-top: 0.2rem; }
-label[data-testid="stWidgetLabel"] > div { font-size: 0.83rem !important; font-weight: 600; color: #334; }
+label[data-testid="stWidgetLabel"] > div {
+    font-size: 0.83rem !important;
+    font-weight: 600 !important;
+    color: #000000 !important;
+}
 div[data-baseweb="select"] { border-radius: 9px !important; }
 .stSelectbox > div > div { border-radius: 9px !important; }
 div[data-testid="stNumberInput"] input { border-radius: 9px !important; }
