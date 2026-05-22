@@ -131,7 +131,7 @@ Heart-Disease-Prediction/
 ├── Heart_Disease_Prediction_Beginner_Portfolio.ipynb
 ├── README.md
 ├── requirements.txt
-│
+│-- app.py
 ├── data/
 │   └── cardio_train.csv
 │
@@ -146,7 +146,7 @@ Heart-Disease-Prediction/
 ### 1. Clone Repository
 
 ```bash
-git clone <>
+git clone <https://github.com/jeevrajsandhu/heart-disease-prediction/tree/main>
 cd Heart-Disease-Prediction
 ```
 
