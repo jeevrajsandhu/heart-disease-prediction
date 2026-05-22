@@ -231,11 +231,11 @@ with left:
     st.markdown('<div class="section-title">👤 Personal Information</div>', unsafe_allow_html=True)
     c1, c2 = st.columns(2)
     with c1:
-        age      = st.number_input("Age (years)", min_value=25, max_value=80, value=45, step=1)
+        age      = st.number_input("Age (years)", min_value=5, max_value=100, value=25, step=1)
         height   = st.number_input("Height (cm)", min_value=120, max_value=220, value=168, step=1)
     with c2:
         gender   = st.selectbox("Gender", ["Male", "Female"])
-        weight   = st.number_input("Weight (kg)", min_value=30, max_value=200, value=72, step=1)
+        weight   = st.number_input("Weight (kg)", min_value=25, max_value=250, value=72, step=1)
     st.markdown('</div>', unsafe_allow_html=True)
 
     # ── Blood Pressure & Clinical ──
@@ -243,11 +243,11 @@ with left:
     st.markdown('<div class="section-title">🩺 Blood Pressure & Clinical Measurements</div>', unsafe_allow_html=True)
     c3, c4 = st.columns(2)
     with c3:
-        ap_hi       = st.number_input("Systolic BP (ap_hi)", min_value=80, max_value=250, value=120, step=1,
+        ap_hi       = st.number_input("Systolic BP (ap_hi)", min_value=50, max_value=280, value=120, step=1,
                                        help="Upper blood pressure number e.g. 120 in 120/80")
         cholesterol = st.selectbox("Cholesterol Level", ["Low", "Normal", "High"])
     with c4:
-        ap_lo       = st.number_input("Diastolic BP (ap_lo)", min_value=40, max_value=150, value=80, step=1,
+        ap_lo       = st.number_input("Diastolic BP (ap_lo)", min_value=40, max_value=160, value=80, step=1,
                                        help="Lower blood pressure number e.g. 80 in 120/80")
         gluc        = st.selectbox("Glucose Level", ["Low", "Normal", "High"])
     st.markdown('</div>', unsafe_allow_html=True)
